@@ -2,7 +2,8 @@ import os
 from flask import Flask, render_template, request, send_file
 import matchering as mg
 import boto3
-
+#Don't forget to preform AWS CONIGURE!!! 
+#Don't UPLOAD SENSITIVE DATA OR AWS credentials 
 # Replace with your own bucket name
 bucket_name = 'YOUR BUCKET NAME'
 # Initialize the S3 client
